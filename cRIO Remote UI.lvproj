@@ -44,7 +44,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{4B5004FD-EDF1-4F3B-8188-EC43A4F55CE5}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PC Client.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/PC Client/PC Client.exe</Property>
@@ -97,6 +97,7 @@
 		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
 		<Property Name="host.TargetOSID" Type="UInt">19</Property>
 		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.Deployment_DownloadInstallerPath" Type="Path"></Property>
 		<Property Name="target.Deployment_SilentInstallation" Type="Bool">false</Property>
@@ -168,6 +169,16 @@ DirectoryIndex index.htm
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Example SubVI.vi" Type="VI" URL="../RT/Support/Example SubVI.vi"/>
+			<Item Name="Caveat 1.vi" Type="VI" URL="../RT/Support/Caveat 1.vi"/>
+			<Item Name="Caveat 1 Fix.vi" Type="VI" URL="../RT/Support/Caveat 1 Fix.vi"/>
+			<Item Name="Caveat 1 - States.ctl" Type="VI" URL="../RT/Support/Caveat 1 - States.ctl"/>
+			<Item Name="Caveat 2.vi" Type="VI" URL="../RT/Support/Caveat 2.vi"/>
+			<Item Name="Caveat 2 Fix.vi" Type="VI" URL="../RT/Support/Caveat 2 Fix.vi"/>
+			<Item Name="Blink User1 LED.vi" Type="VI" URL="../RT/Support/Blink User1 LED.vi"/>
+		</Item>
+		<Item Name="Main RT.vi" Type="VI" URL="../RT/Main RT.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -180,7 +191,6 @@ DirectoryIndex index.htm
 				<Property Name="crio.ModuleContainerType" Type="Str">crio.DAQModuleContainer</Property>
 			</Item>
 		</Item>
-		<Item Name="Main RT.vi" Type="VI" URL="../RT/Main RT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main RT Exe" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -200,7 +210,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BFC01475-A78C-4E43-ACBC-FBB787DE5368}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -230,7 +240,74 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/cRIO/Support/Example SubVI.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[5].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[2].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">6</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/cRIO/Support/Caveat 1.vi</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/cRIO/Support/Caveat 1 Fix.vi</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/cRIO/Support/Caveat 2.vi</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[2].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/cRIO/Support/Caveat 2 Fix.vi</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[2].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[3].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[4].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Woodward, Inc.</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Main RT Exe</Property>
 				<Property Name="TgtF_internalName" Type="Str">Main RT Exe</Property>
