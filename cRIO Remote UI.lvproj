@@ -210,7 +210,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BFC01475-A78C-4E43-ACBC-FBB787DE5368}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -221,7 +221,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4DC01D5B-C5D3-45E5-B0E4-A3543C9EDE18}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C220693B-BFE3-46DF-9962-C124A7AB8758}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/cRIO/Main RT.vi</Property>
@@ -253,7 +253,9 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[5].type" Type="Str">Show fp when called</Property>
 				<Property Name="Source[2].properties[5].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">6</Property>
+				<Property Name="Source[2].properties[6].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[6].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">7</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/cRIO/Support/Caveat 1.vi</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Show menu bar</Property>
@@ -266,7 +268,9 @@ DirectoryIndex index.htm
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[4].type" Type="Str">Show Abort button</Property>
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[3].properties[5].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/cRIO/Support/Caveat 1 Fix.vi</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Show menu bar</Property>
@@ -279,7 +283,9 @@ DirectoryIndex index.htm
 				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[4].type" Type="Str">Show horizontal scroll bar</Property>
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[4].properties[5].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/cRIO/Support/Caveat 2.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Show menu bar</Property>
@@ -292,7 +298,9 @@ DirectoryIndex index.htm
 				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[4].type" Type="Str">Show Abort button</Property>
 				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].properties[5].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/cRIO/Support/Caveat 2 Fix.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Show menu bar</Property>
@@ -305,9 +313,21 @@ DirectoryIndex index.htm
 				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[4].type" Type="Str">Show Abort button</Property>
 				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[6].properties[5].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[6].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/cRIO/Support/Blink User1 LED.vi</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/cRIO/Support/Caveat 1 - States.ctl</Property>
+				<Property Name="Source[8].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">Woodward, Inc.</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Main RT Exe</Property>
 				<Property Name="TgtF_internalName" Type="Str">Main RT Exe</Property>
