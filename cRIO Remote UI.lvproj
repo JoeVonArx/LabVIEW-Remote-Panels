@@ -179,6 +179,7 @@ DirectoryIndex index.htm
 				<Item Name="Caveat 1 - States.ctl" Type="VI" URL="../RT/Support/Caveat 1 - States.ctl"/>
 				<Item Name="Caveat 2.vi" Type="VI" URL="../RT/Support/Caveat 2.vi"/>
 				<Item Name="Caveat 2 Fix.vi" Type="VI" URL="../RT/Support/Caveat 2 Fix.vi"/>
+				<Item Name="Caveat 2 Simple.vi" Type="VI" URL="../RT/Support/Caveat 2 Simple.vi"/>
 			</Item>
 			<Item Name="Other" Type="Folder">
 				<Item Name="RP Active.vi" Type="VI" URL="../RT/Support/RP Active.vi"/>
@@ -217,7 +218,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BFC01475-A78C-4E43-ACBC-FBB787DE5368}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
