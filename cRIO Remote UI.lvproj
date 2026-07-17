@@ -175,15 +175,8 @@ DirectoryIndex index.htm
 			<Item Name="Presentation Examples" Type="Folder">
 				<Item Name="Example SubVI.vi" Type="VI" URL="../RT/Support/Example SubVI.vi"/>
 				<Item Name="Caveat 1.vi" Type="VI" URL="../RT/Support/Caveat 1.vi"/>
-				<Item Name="Caveat 1 Fix.vi" Type="VI" URL="../RT/Support/Caveat 1 Fix.vi"/>
 				<Item Name="Caveat 1 - States.ctl" Type="VI" URL="../RT/Support/Caveat 1 - States.ctl"/>
 				<Item Name="Caveat 2.vi" Type="VI" URL="../RT/Support/Caveat 2.vi"/>
-				<Item Name="Caveat 2 Fix.vi" Type="VI" URL="../RT/Support/Caveat 2 Fix.vi"/>
-				<Item Name="Caveat 2 Simple.vi" Type="VI" URL="../RT/Support/Caveat 2 Simple.vi"/>
-			</Item>
-			<Item Name="Other" Type="Folder">
-				<Item Name="RP Active.vi" Type="VI" URL="../RT/Support/RP Active.vi"/>
-				<Item Name="Blink User1 LED.vi" Type="VI" URL="../RT/Support/Blink User1 LED.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Main RT.vi" Type="VI" URL="../RT/Main RT.vi"/>
@@ -218,7 +211,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BFC01475-A78C-4E43-ACBC-FBB787DE5368}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -280,7 +273,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[3].properties[5].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/cRIO/Support/Presentation Examples/Caveat 1 Fix.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Show menu bar</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Show vertical scroll bar</Property>
@@ -310,7 +303,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[5].properties[5].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/cRIO/Support/Other/Blink User1 LED.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove front panel</Property>
@@ -324,7 +317,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/cRIO/Support/Other/RP Active.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
