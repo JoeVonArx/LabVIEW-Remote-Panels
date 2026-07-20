@@ -1,7 +1,7 @@
 $Host.UI.RawUI.WindowTitle = "Pinging cRIO"
 
 # Restrict window size
-mode con: cols=60 lines=300
+mode con: cols=60 lines=200
 
 # Get Windows PC's IP address on the cRIO network
 $pcIpAddress = Get-NetIPAddress -AddressFamily IPv4 -PrefixOrigin Manual | Select-Object -ExpandProperty IPAddress
