@@ -1,6 +1,8 @@
 # LabVIEW-Remote-Panels
 Example Client and Server Code for Implementing a Simple cRIO GUI. 
 
+See Docs/Remote Panels Presentation.pdf for more in-depth notes.
+
 Project save version is LabVIEW 2019.
 
 This simple project provides example code and notes for how to use Remote Panel Server on the cRIO to allow clients on PCs on the same the LAN to download the Front Panels of VIs running on the cRIO and interact with the running cRIO code as if it were running on the client machine.  Client apps can run on PCs which have the same LabVIEW runtime engine installed as the cRIO.  The runtime engine is a free download.
