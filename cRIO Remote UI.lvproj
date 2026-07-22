@@ -44,7 +44,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{4B5004FD-EDF1-4F3B-8188-EC43A4F55CE5}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PC Client.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/PC Client/PC Client.exe</Property>
@@ -273,7 +273,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[3].properties[5].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
+				<Property Name="Source[4].itemID" Type="Ref">/</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Show menu bar</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Show vertical scroll bar</Property>
@@ -303,7 +303,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[5].properties[5].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
+				<Property Name="Source[6].itemID" Type="Ref">/</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove front panel</Property>
@@ -317,7 +317,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
+				<Property Name="Source[8].itemID" Type="Ref">/</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
