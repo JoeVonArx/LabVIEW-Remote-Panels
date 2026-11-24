@@ -1,7 +1,7 @@
 # LabVIEW-Remote-Panels
 Example Client and Server Code for Implementing a Simple cRIO GUI. 
 
-See Docs/Remote Panels Presentation.pdf for more in-depth notes.
+See Docs/Remote Panels Presentation.pdf for more in-depth notes. I presented on this at GDevCon N.A. 2026 in Chicago, and the recording is on YouTube: https://youtu.be/npUuyeB0Rkg?si=37OHsP-6k9gdL_Tm.
 
 Project save version is LabVIEW 2019.
 
