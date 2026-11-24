@@ -44,7 +44,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{4B5004FD-EDF1-4F3B-8188-EC43A4F55CE5}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PC Client.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/PC Client/PC Client.exe</Property>
